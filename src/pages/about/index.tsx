@@ -1,6 +1,9 @@
-import type { NextPage } from 'next'
+import type { NextPageWithLayout } from 'next'
 import { AboutPage } from '@src/component/pages/About'
+import { Layout } from '@src/layouts'
 
-const About: NextPage = () => <AboutPage />
+const About: NextPageWithLayout = () => <AboutPage />
+
+About.getLayout = (page) => <Layout>{page}</Layout>
 
 export default About
