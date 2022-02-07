@@ -4,7 +4,12 @@ export const HomePage = () => (
   <>
     <h1>home page</h1>
     <div>
-      <Link href={'/about'}>about</Link>
+      <div>
+        <Link href={'/about'}>about</Link>
+      </div>
+      <div>
+        <Link href={'/work'}>work</Link>
+      </div>
     </div>
   </>
 )

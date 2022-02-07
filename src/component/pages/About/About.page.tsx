@@ -4,7 +4,12 @@ export const AboutPage = () => (
   <>
     <h1>about page</h1>
     <div>
-      <Link href={'/'}>home</Link>
+      <div>
+        <Link href={'/'}>home</Link>
+      </div>
+      <div>
+        <Link href={'/work'}>work</Link>
+      </div>
     </div>
   </>
 )
