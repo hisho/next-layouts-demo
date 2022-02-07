@@ -1,12 +1,10 @@
-import Link from "next/link";
+import Link from 'next/link'
 
 export const AboutPage = () => (
   <>
     <h1>about page</h1>
     <div>
-      <Link href={'/'}>
-        home
-      </Link>
+      <Link href={'/'}>home</Link>
     </div>
   </>
 )
